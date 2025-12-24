@@ -1,0 +1,21 @@
+# ---- Python / Virtual Environment ----
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Data (never push raw or processed data) ----
+data/raw/
+data/processed/
+
+# ---- ML / MLOps ----
+mlruns/
+wandb/
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.vscode/
