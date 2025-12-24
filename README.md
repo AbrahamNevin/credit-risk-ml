@@ -29,40 +29,7 @@ The goal of this project is to build a **scalable, auditable, and explainable ML
 
 ---
 
-## 🗂 Project Structure
 
-credit-risk-ml/
-│
-├── data/
-│   ├── raw/                     # Original dataset (not tracked in Git)
-│   │   └── uci_credit_default.xls
-│   │
-│   └── processed/               # Cleaned & feature-engineered datasets
-│       ├── credit_default_clean.csv
-│       └── credit_default_features.csv
-│
-├── notebooks/                   # Jupyter notebooks (step-by-step pipeline)
-│   ├── 01_eda_credit_default.ipynb
-│   ├── 02_baseline_model.ipynb
-│   ├── 03_feature_engineering.ipynb
-│   ├── 04_tree_models.ipynb
-│   ├── 05_mlflow_tracking.ipynb
-│   ├── 06_fairness_analysis.ipynb
-│   └── 07_sql_integration.ipynb
-│
-├── src/                         # Production-ready Python modules
-│   ├── data/                    # Data loading & preprocessing logic
-│   ├── features/                # Feature engineering logic
-│   ├── models/                  # Model training & evaluation code
-│   └── fairness/                # Bias & fairness evaluation utilities
-│
-├── sql/
-│   └── credit_risk.db           # SQLite database for ML data sourcing
-│
-├── venv/                        # Python virtual environment (not tracked)
-│
-├── .gitignore                   # Git ignore rules
-└── README.md                    # Project documentation
 
 yaml
 Copy code
